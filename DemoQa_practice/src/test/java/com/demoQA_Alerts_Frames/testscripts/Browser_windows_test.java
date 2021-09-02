@@ -20,7 +20,7 @@ public class Browser_windows_test extends BaseClass  {
 			
 		
 	}
-	
+	// To open new tab
 	@Test
 	public void windowtest() throws InterruptedException {
 	
