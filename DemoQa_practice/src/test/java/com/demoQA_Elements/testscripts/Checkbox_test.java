@@ -47,7 +47,7 @@ public class Checkbox_test extends BaseClass {
 		
 		Checkbox_Page object=new Checkbox_Page(driver);
 		object.checkbox();
-		Assert.assertTrue(false);
+		
 		
 		
 	}

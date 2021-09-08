@@ -57,7 +57,7 @@ public class Tabs_test extends BaseClass {
 		
 		
 		String f=tabobj.usetab();
-		Assert.assertEquals(f, "Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)");
+		Assert.assertEquals(f, "Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).");
 		System.out.println(f);
 	}
 	
