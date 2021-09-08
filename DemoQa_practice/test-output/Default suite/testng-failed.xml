@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demoQA_Interactions.testscripts.Droppable_test">
+      <class name="com.demoQA_Widgets.testscripts.Tabs_test">
         <methods>
-          <include name="drop_test"/>
+          <include name="tab_test"/>
+          <include name="getStatus"/>
+          <include name="startTest"/>
           <include name="open"/>
+          <include name="origin_test"/>
+          <include name="use_test"/>
         </methods>
-      </class> <!-- com.demoQA_Interactions.testscripts.Droppable_test -->
+      </class> <!-- com.demoQA_Widgets.testscripts.Tabs_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
