@@ -10,7 +10,7 @@ public class Browser_windows_test extends BaseClass  {
 
 	Browser_windows_page browserwindow;
 	
-	// To open the browser and URL
+	
 	@BeforeClass
 	public void open() {
 		

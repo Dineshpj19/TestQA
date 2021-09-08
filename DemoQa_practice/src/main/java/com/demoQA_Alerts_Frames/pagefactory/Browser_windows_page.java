@@ -61,13 +61,16 @@ public class Browser_windows_page extends BaseClass {
 		
 		 newtab.click();		 
 		ArrayList<String> tabs=new ArrayList<String>(driver.getWindowHandles());
+		System.out.println(tabs);
 		driver.switchTo().window(tabs.get(1));
-		String a=newtab_text.getText();
-		System.out.println("New Tab page :" +a);
-		driver.switchTo().window(tabs.get(0));
+    	String a=newtab_text.getText();
+		System.out.println("New Tab page text is :" +a);
+		driver.close();
+    	driver.switchTo().window(tabs.get(0));
 		
 		
 		// NewWindow
+		 
     	newwindow.click();
     ArrayList<String> tabs1=new ArrayList<String>(driver.getWindowHandles());
 	driver.switchTo().window(tabs1.get(2));
@@ -76,7 +79,7 @@ public class Browser_windows_page extends BaseClass {
 	System.out.println("New Window page :" +b);
 	driver.switchTo().window(tabs.get(0));
 		
-
+	/*
 		
 		// New WindowMessage
         
@@ -87,7 +90,7 @@ public class Browser_windows_page extends BaseClass {
 		driver.switchTo().window(tabs.get(0));
 		
 		
-		
+		*/
 		
 	}
 	

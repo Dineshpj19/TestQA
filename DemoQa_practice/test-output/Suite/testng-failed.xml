@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="classes" name="Test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.demoQA_Elements.testscripts.Checkbox_test">
         <methods>
@@ -14,16 +14,6 @@
           <include name="close"/>
         </methods>
       </class> <!-- com.demoQA_Elements.testscripts.Checkbox_test -->
-      <class name="com.demoQA_Widgets.testscripts.Tabs_test">
-        <methods>
-          <include name="tab_test"/>
-          <include name="getStatus"/>
-          <include name="startTest"/>
-          <include name="open"/>
-          <include name="origin_test"/>
-          <include name="use_test"/>
-        </methods>
-      </class> <!-- com.demoQA_Widgets.testscripts.Tabs_test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
